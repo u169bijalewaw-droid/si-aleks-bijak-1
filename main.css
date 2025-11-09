@@ -1,9 +1,59 @@
-header {
-  display: flex;
-  justify-content: center;
+body {
+  flex-direction: column;
+  font-family: sans-serif;
 }
 
-span {
+body > nav {
   display: flex;
   justify-content: flex-end;
+  height: 15vh;
+  gap: 20px;
+}
+
+body > nav > span {
+  padding: 10px;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+body > nav > img {
+  width: 17px;
+  height: 17px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+nav > img:hover {
+  background: grey;
+}
+
+body > header {
+  display: flex;
+  justify-self: center;
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+}
+
+body > button {
+  display: flex;
+  justify-self: center;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: bold;
+  background-color: white;
+}
+
+body > button > img {
+  width: 17px;
+  height: 17px;
+}
+
+body > button > input {
+  width: 500px;
+  border: none;
+  border-radius: 20px;
 }
